@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -12,10 +13,6 @@ public class PlayerController : MonoBehaviour
     {
         _input = GetComponent<InputActions>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
-    }
-
-    private void Update()
-    {
     }
 
     private void FixedUpdate()
