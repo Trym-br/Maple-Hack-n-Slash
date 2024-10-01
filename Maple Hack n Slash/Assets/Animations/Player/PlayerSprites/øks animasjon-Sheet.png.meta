@@ -1,10 +1,31 @@
 fileFormatVersion: 2
-guid: ee7279f22b34e9c4b9492b0e8411ecc2
+guid: 8c5ea4f5a3220234cb39048aafdfa1fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8275502208090371910
-    second: Dirt_0
+      213: -5271980156970466210
+    second: "\xF8ks animasjon-Sheet_0"
+  - first:
+      213: 5047486498093027036
+    second: "\xF8ks animasjon-Sheet_1"
+  - first:
+      213: 4952996480824026428
+    second: "\xF8ks animasjon-Sheet_2"
+  - first:
+      213: 7491833399684530805
+    second: "\xF8ks animasjon-Sheet_3"
+  - first:
+      213: -2778089915162318587
+    second: "\xF8ks animasjon-Sheet_4"
+  - first:
+      213: -8784791850775389048
+    second: "\xF8ks animasjon-Sheet_5"
+  - first:
+      213: 9086264303320470244
+    second: "\xF8ks animasjon-Sheet_6"
+  - first:
+      213: -253058249535231836
+    second: "\xF8ks animasjon-Sheet_7"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dirt_0
+      name: "\xF8ks animasjon-Sheet_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +162,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab800d45692872d80800000000000000
-      internalID: -8275502208090371910
+      spriteID: e540ed8baf926d6b0800000000000000
+      internalID: -5271980156970466210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xF8ks animasjon-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde4a6f2a364c0640800000000000000
+      internalID: 5047486498093027036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xF8ks animasjon-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35a645ae049cb440800000000000000
+      internalID: 4952996480824026428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xF8ks animasjon-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5728a9898c658f760800000000000000
+      internalID: 7491833399684530805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\xF8ks animasjon-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509a7ace0fd3279d0800000000000000
+      internalID: -2778089915162318587
       vertices: []
       indices: 
       edges: []
@@ -151,7 +260,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f4c8409288c073d46a45b9ae7b1882ef
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +270,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dirt_0: -8275502208090371910
+      "\xF8ks animasjon-Sheet_0": -5271980156970466210
+      "\xF8ks animasjon-Sheet_1": 5047486498093027036
+      "\xF8ks animasjon-Sheet_2": 4952996480824026428
+      "\xF8ks animasjon-Sheet_3": 7491833399684530805
+      "\xF8ks animasjon-Sheet_4": -2778089915162318587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
