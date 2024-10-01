@@ -16,9 +16,4 @@ public class Audio : MonoBehaviour
         // Play Music
         _audioSource.Play();
     }
-
-    private void Update()
-    {
-        _audioSource.PlayOneShot(_clip1);
-    } 
 }
