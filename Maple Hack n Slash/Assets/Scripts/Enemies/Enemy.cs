@@ -38,8 +38,23 @@ public class Enemy : MonoBehaviour
         agent.updatePosition = false;
     }
 
-    private void Attack()
-    {   
-        
+    private void OnTriggerStay2D(Collider2D other)
+    // private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Debug.Log("triggered by: " + other.gameObject.name);
+        if (other.gameObject.tag == "Player")
+        {
+            Attack(other);
+        }
+    }
+
+    private void Attack(Collider2D other)
+    {
+        other.gameObject.GetComponent<Health>().TakeDamage(1);
+    }
+
+    public void DieExtra()
+    {
+        Destroy(gameObject);
     }
 }
