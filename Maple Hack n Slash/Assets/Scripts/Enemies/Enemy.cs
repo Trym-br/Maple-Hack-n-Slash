@@ -6,17 +6,19 @@ using System.Collections;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] Transform target;
     [SerializeField] Collider2D playerCollider;
     NavMeshAgent agent;
+
+    private Animator _animator;
     
-    Rigidbody2D rb;
-    NavMeshAgent ag;
+    private Rigidbody2D rb;
+    private NavMeshAgent ag;
 
     void Start () {
         rb = GetComponent<Rigidbody2D>();   
         ag = GetComponent<NavMeshAgent>();
-
+        _animator = GetComponent<Animator>();
+        
         // Disable agent control of the transform
         ag.updatePosition = false;
         ag.updateRotation = false;
@@ -29,6 +31,9 @@ public class Enemy : MonoBehaviour
         // agent.SetDestination(target.position);
         rb.linearVelocity = ag.velocity;
         ag.nextPosition = rb.position;
+        
+        _animator.SetFloat("Horizontal", rb.linearVelocity.x);
+        _animator.SetFloat("Vertical", rb.linearVelocity.y);
     }
     private void Awake()
     {
