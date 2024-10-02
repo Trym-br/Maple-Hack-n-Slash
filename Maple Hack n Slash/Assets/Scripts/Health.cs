@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
         hp = maxHp;
     }
 
-    void TakeDamage(float damage)
+    public void TakeDamage(float damage)
     {
         if (invisTimer <= 0f)
         {

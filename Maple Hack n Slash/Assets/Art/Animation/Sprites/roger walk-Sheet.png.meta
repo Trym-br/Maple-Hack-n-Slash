@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ae3a6f803e233a746944ac265dd12bfb
+guid: 634feb348dfd25f40aef532cf1c9cde5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5970135517838781546
-    second: ColorTiles_0
+      213: -9101510894564046267
+    second: roger walk-Sheet_0
+  - first:
+      213: 9147074218361504948
+    second: roger walk-Sheet_1
+  - first:
+      213: -9125895704646940889
+    second: roger walk-Sheet_2
+  - first:
+      213: 2125101377522765893
+    second: roger walk-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ColorTiles_0
+      name: roger walk-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6c29b15f9e2ad250800000000000000
-      internalID: 5970135517838781546
+      spriteID: 54a89223010f0b180800000000000000
+      internalID: -9101510894564046267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColorTiles_1
+      name: roger walk-Sheet_1
       rect:
         serializedVersion: 2
         x: 32
@@ -135,16 +144,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 473509fd50f42be48b75d92eb2aed3e3
-      internalID: -718630918
+      spriteID: 4b4429fc98fe0fe70800000000000000
+      internalID: 9147074218361504948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColorTiles_2
+      name: roger walk-Sheet_2
       rect:
         serializedVersion: 2
         x: 64
@@ -157,16 +166,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: bb0cc94bb8c6cae4c84e34b1e8e44a13
-      internalID: -1636321338
+      spriteID: 727814b253e4a5180800000000000000
+      internalID: -9125895704646940889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ColorTiles_3
+      name: roger walk-Sheet_3
       rect:
         serializedVersion: 2
         x: 96
@@ -179,10 +188,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f8fee0067c09336469e5ce502925f09a
-      internalID: 1504620968
+      spriteID: 54010fe8170ed7d10800000000000000
+      internalID: 2125101377522765893
       vertices: []
       indices: 
       edges: []
@@ -191,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 21e69c126f8ffad43a173ab718a1fa1f
+    spriteID: 9b57c56dfff37ba448bbed93d3d563f3
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ColorTiles_0: 5970135517838781546
-      ColorTiles_1: -718630918
-      ColorTiles_2: -1636321338
-      ColorTiles_3: 1504620968
+      roger walk-Sheet_0: -9101510894564046267
+      roger walk-Sheet_1: 9147074218361504948
+      roger walk-Sheet_2: -9125895704646940889
+      roger walk-Sheet_3: 2125101377522765893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
