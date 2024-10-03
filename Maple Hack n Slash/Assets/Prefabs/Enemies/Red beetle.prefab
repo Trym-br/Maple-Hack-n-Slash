@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0afc2c7439ef2354bb646c04f50d7ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCollider: {fileID: 0}
+  scoreWorth: 300
 --- !u!114 &619641631099923509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,9 +213,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8a66f930d3d2a4d9330146c8b49c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHp: 2
+  hp: 1
   TakeDamageExtra:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 31239392398883081}
+        m_TargetAssemblyTypeName: Enemy, Assembly-CSharp
+        m_MethodName: TakeDamageExtra
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   DieExtra:
     m_PersistentCalls:
       m_Calls:
@@ -231,10 +245,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  maxHp: 2
-  hp: 1
   invisTime: 1
-  invisTimer: 1
+  invisTimer: 0.5
 --- !u!95 &4195172348261858873
 Animator:
   serializedVersion: 7

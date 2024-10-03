@@ -14,7 +14,7 @@ public class InputActions : MonoBehaviour
     {
         // MoveDirection = _input.Player.Move.ReadValue<Vector2>();
         Attack = _input.Player.Attack.WasPressedThisFrame();
-        SecondaryAction = _input.Player.Attack.WasPressedThisFrame();
+        SecondaryAction = _input.Player.SecondaryAction.IsPressed();
         Horizontal = _input.Player.Move.ReadValue<Vector2>().x;
         Vertical = _input.Player.Move.ReadValue<Vector2>().y;
     }

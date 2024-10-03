@@ -227,6 +227,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpSpeed: 4
   attackSpeed: 0.2
+  healthUI: {fileID: 0}
 --- !u!114 &7332591363186109368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8a66f930d3d2a4d9330146c8b49c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHp: 3
+  hp: 1
   TakeDamageExtra:
     m_PersistentCalls:
       m_Calls:
@@ -257,8 +260,6 @@ MonoBehaviour:
   DieExtra:
     m_PersistentCalls:
       m_Calls: []
-  maxHp: 3
-  hp: 1
   invisTime: 2
   invisTimer: 1
 --- !u!95 &2640652077798660330

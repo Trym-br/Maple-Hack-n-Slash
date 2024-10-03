@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/UIStyle.uss?fileID=7433441132597879392&amp;guid=c9d56b77fc9fa4b4994db4e4a8fa0b13&amp;type=3#UIStyle" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; justify-content: flex-start; width: auto; flex-shrink: 1; align-items: flex-start;">
+        <ui:VisualElement name="Heart_1" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Sprites/maple%20project%20tileset.png?fileID=-3763503663582096832&amp;guid=cfeabeeda10f0ae488e0484e2de7f8d7&amp;type=3#maple project tileset_30&quot;); background-size: 100% 100%; width: 0; height: 0; min-width: 32px; min-height: 32px; max-width: 0; max-height: 0;" />
+        <ui:VisualElement name="Heart_2" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Sprites/maple%20project%20tileset.png?fileID=-3763503663582096832&amp;guid=cfeabeeda10f0ae488e0484e2de7f8d7&amp;type=3#maple project tileset_30&quot;); background-size: 100% 100%; width: 0; height: 0; min-width: 32px; min-height: 32px; max-width: 0; max-height: 0;" />
+        <ui:VisualElement name="Heart_3" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Art/Sprites/maple%20project%20tileset.png?fileID=-3763503663582096832&amp;guid=cfeabeeda10f0ae488e0484e2de7f8d7&amp;type=3#maple project tileset_30&quot;); background-size: 100% 100%; width: 0; height: 0; min-width: 32px; min-height: 32px; max-width: 0; max-height: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

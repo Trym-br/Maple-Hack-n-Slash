@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 7978042969385899857}
   - component: {fileID: 3794418205089194705}
   - component: {fileID: 8175969623264247561}
-  - component: {fileID: 3672194207689076284}
   m_Layer: 7
   m_Name: Rootrunner
   m_TagString: Enemy
@@ -84,12 +83,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7865111707614940277, guid: 8feead8c2757ae4438a3123e2581a1d5, type: 3}
+  m_Sprite: {fileID: 2678581011559095419, guid: 4c220d20b644ded47b5ea347c3dd5c4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.14, y: 0.13}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -160,8 +159,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.875, y: 0.8125}
+    newSize: {x: 0.14, y: 0.13}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -202,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0afc2c7439ef2354bb646c04f50d7ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCollider: {fileID: 0}
+  scoreWorth: 300
 --- !u!114 &7978042969385899857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,6 +214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8a66f930d3d2a4d9330146c8b49c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHp: 1
+  hp: 1
   TakeDamageExtra:
     m_PersistentCalls:
       m_Calls: []
@@ -233,10 +234,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  maxHp: 3
-  hp: 1
   invisTime: 1
-  invisTimer: 1
+  invisTimer: 0.5
 --- !u!114 &3794418205089194705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,8 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d48c3d10d66800848998ad4a15037623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreWorth: 300
   hedge: {fileID: 3229352460878471084, guid: f51364bc597ca8648b4fb1f8e62c5376, type: 3}
-  navMeshSurface: {fileID: 0}
 --- !u!95 &8175969623264247561
 Animator:
   serializedVersion: 7
@@ -273,19 +272,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3672194207689076284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 355993438542072764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 1
-  m_IgnoreFromBuild: 0
-  m_AffectedAgents: ffffffff

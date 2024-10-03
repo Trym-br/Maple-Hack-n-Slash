@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0afc2c7439ef2354bb646c04f50d7ae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCollider: {fileID: 0}
+  scoreWorth: 100
 --- !u!114 &885087642606967251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,6 +213,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a8a66f930d3d2a4d9330146c8b49c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHp: 1
+  hp: 1
   TakeDamageExtra:
     m_PersistentCalls:
       m_Calls: []
@@ -231,10 +233,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  maxHp: 1
-  hp: 1
   invisTime: 1
-  invisTimer: 1
+  invisTimer: 0.5
 --- !u!95 &3939058870730844593
 Animator:
   serializedVersion: 7

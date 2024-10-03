@@ -234,6 +234,17 @@
                 },
                 {
                     "name": "",
+                    "id": "995b8e3a-7f5a-4e08-99e4-46b76244f139",
+                    "path": "<Keyboard>/j",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a8f61d7a-45ce-430e-854f-6c037439c011",
                     "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
@@ -245,11 +256,11 @@
                 },
                 {
                     "name": "",
-                    "id": "2b338df3-7ad8-4bc3-bb9e-d082156030b1",
-                    "path": "<Keyboard>/s",
+                    "id": "3cd7fcd0-631e-4193-9675-3fbb31d2588b",
+                    "path": "<Keyboard>/k",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Touch",
+                    "groups": "",
                     "action": "SecondaryAction",
                     "isComposite": false,
                     "isPartOfComposite": false

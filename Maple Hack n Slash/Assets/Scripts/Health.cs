@@ -2,14 +2,16 @@ using System;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private UnityEvent TakeDamageExtra;
-    [SerializeField] private UnityEvent DieExtra;
-    
     public float maxHp = 1f;
     public float hp = 1f;
+    private SpriteRenderer sr;
+    
+    [SerializeField] private UnityEvent TakeDamageExtra;
+    [SerializeField] private UnityEvent DieExtra;
 
     // S or m
     public float invisTime = 0.3f;
@@ -18,6 +20,7 @@ public class Health : MonoBehaviour
     void Start()
     {
         hp = maxHp;
+        sr = GetComponent<SpriteRenderer>();
     }
 
     public void TakeDamage(float damage)
@@ -30,7 +33,11 @@ public class Health : MonoBehaviour
             {
                 Die();
             }
-            TakeDamageExtra?.Invoke();
+            else
+            {
+                HurtAnim();
+                TakeDamageExtra?.Invoke();
+            }
         }
     }
 
@@ -42,5 +49,16 @@ public class Health : MonoBehaviour
     void Die()
     {
         DieExtra?.Invoke();
+    }
+    public void HurtAnim()
+    {
+        StartCoroutine(HurtAnimation());
+    }
+    IEnumerator HurtAnimation()
+    {
+        // bro same
+        sr.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sr.color = Color.white;
     }
 }
