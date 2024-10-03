@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 048133ab72d6efc4e84fe4937fd716da
+guid: 7b6abc337d189ab4091bc0e6832bc5a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2844350663606133163
-    second: Rootrunner Lrun-Sheet_0
-  - first:
-      213: 6719098984065258003
-    second: Rootrunner Lrun-Sheet_1
-  - first:
-      213: 321363289772389704
-    second: Rootrunner Lrun-Sheet_2
+      213: -3460207180728166044
+    second: lord Skully urun-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -90,33 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Win64
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -132,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rootrunner Lrun-Sheet_0
+      name: lord Skully urun-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -147,14 +115,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba1e3e8cbd9297720800000000000000
-      internalID: 2844350663606133163
+      spriteID: 469117fe6efdaffc0800000000000000
+      internalID: -3460207180728166044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rootrunner Lrun-Sheet_1
+      name: lord Skully urun-Sheet_1
       rect:
         serializedVersion: 2
         x: 16
@@ -167,32 +135,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 312d5eb3de80f3d50800000000000000
-      internalID: 6719098984065258003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rootrunner Lrun-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 845fbba9536b57400800000000000000
-      internalID: 321363289772389704
+      spriteID: c2187fbbd4fc04e44ba8b802b8baeb72
+      internalID: -1549587202
       vertices: []
       indices: 
       edges: []
@@ -201,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 885e1b21420a62443a94b475b1a5538b
+    spriteID: 3fe97957443e7ad4bbdcc171a376630a
     internalID: 0
     vertices: []
     indices: 
@@ -211,9 +157,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rootrunner Lrun-Sheet_0: 2844350663606133163
-      Rootrunner Lrun-Sheet_1: 6719098984065258003
-      Rootrunner Lrun-Sheet_2: 321363289772389704
+      lord Skully urun-Sheet_0: -3460207180728166044
+      lord Skully urun-Sheet_1: -1549587202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
