@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        PlayerController.Score = 0;
         _input = GetComponent<InputActions>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _health = GetComponent<Health>();
