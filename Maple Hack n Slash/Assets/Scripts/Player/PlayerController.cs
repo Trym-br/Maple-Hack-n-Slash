@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -65,6 +66,15 @@ public class PlayerController : MonoBehaviour
             }
 
             attackTimer -= Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Level 1");
+        }
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
