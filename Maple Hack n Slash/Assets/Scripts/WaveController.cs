@@ -66,7 +66,14 @@ public class WaveController : MonoBehaviour
             {
                 Nav.BuildNavMesh();
                 StartCoroutine(startWave(waveIndex, 1));
-                waveIndex++;
+                if (waveIndex <= waves.Length - 1)
+                {
+                    waveIndex++;
+                }
+                else
+                {
+                    waveIndex = 4;
+                }
             }
         }
         else
